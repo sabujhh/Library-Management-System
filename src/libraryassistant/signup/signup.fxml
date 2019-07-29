@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="470.0" prefWidth="552.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="libraryassistant.signup.FXMLController">
+   <children>
+      <Label layoutX="98.0" layoutY="17.0" prefHeight="44.0" prefWidth="432.0" text="Library Management System">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+      <Label layoutX="228.0" layoutY="70.0" prefHeight="50.0" prefWidth="134.0" text="Sign Up Page">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="EmailField" layoutX="133.0" layoutY="247.0" onKeyReleased="#emailfieldAction" prefHeight="44.0" prefWidth="397.0" promptText="Email" />
+      <Button layoutX="231.0" layoutY="412.0" mnemonicParsing="false" onAction="#signUpAction" prefHeight="44.0" prefWidth="167.0" text="Sign Up" textFill="#252abf">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Label layoutX="56.0" layoutY="259.0" text="Email" />
+      <Label layoutX="42.0" layoutY="318.0" text="Password" />
+      <Label layoutX="13.0" layoutY="371.0" text="Confirm Password" />
+      <TextField fx:id="userIDField" layoutX="133.0" layoutY="134.0" prefHeight="44.0" prefWidth="397.0" promptText="UserID" />
+      <TextField fx:id="NameField" layoutX="133.0" layoutY="188.0" prefHeight="44.0" prefWidth="397.0" promptText="Name" />
+      <Label layoutX="66.0" layoutY="146.0" text="ID" />
+      <Label layoutX="54.0" layoutY="200.0" text="Name" />
+      <Label fx:id="notification" layoutX="57.0" layoutY="424.0" textFill="#b51313" />
+      <PasswordField fx:id="PasswordField" layoutX="135.0" layoutY="300.0" prefHeight="44.0" prefWidth="397.0" promptText="Password" />
+      <PasswordField fx:id="ConfirmpassField" layoutX="135.0" layoutY="360.0" prefHeight="44.0" prefWidth="397.0" promptText="Confirm Password" />
+   </children>
+</AnchorPane>
