@@ -1,2 +1,9 @@
 # library-management-system
-Java OOP full project using JavaFX in frontend, MySQL and Java in backend in the Object Oriented Programming Course in undergrad.
+
+●  A desktop application for a library for maintenance all the books and members.
+
+●  JavaFX is used in frontend and Java in backend. MySQL is used for manipulating database.
+
+● Implemented CRUD operation for booklist and members of the library
+
+● Implemented Login authentication
